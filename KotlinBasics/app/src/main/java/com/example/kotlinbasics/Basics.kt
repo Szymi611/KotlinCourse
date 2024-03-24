@@ -24,7 +24,7 @@ fun main(){
     println(name.uppercase())
     println(name + "Szymon") */
 
-    var age = 0;
+    /* var age = 0;
     println("Please enter your age as a number:")
     //Wczytanie danej od uzytkownika
     val enteredValue = readln();
@@ -37,5 +37,19 @@ fun main(){
         println("You can go to the club")
     }else{
         println("You cant go to the club")
+    } */
+
+    /* var count = 0;
+    while (count < 3){
+        println("Count is $count")
+        count++
     }
+    println("Loop is done") */
+
+    var userInput = readln();
+    while (userInput == "1"){
+        println("While loop executed")
+        userInput = readln()
+    }
+    println("Loop is done")
 }
